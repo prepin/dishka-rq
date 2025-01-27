@@ -1,6 +1,6 @@
 # RQ integration for Dishka
 
-[![PyPI version](https://badge.fury.io/py/dishka-rq.svg)](https://pypi.python.org/pypi/dishka-rq)
+[![PyPI version](https://badge.fury.io/py/dishka-rq.svg)](https://badge.fury.io/py/dishka-rq)
 [![Supported versions](https://img.shields.io/pypi/pyversions/dishka-rq.svg)](https://pypi.python.org/pypi/dishka-rq)
 [![License](https://img.shields.io/github/license/prepin/dishka-rq)](https://github.com/prepin/dishka_rq/blob/master/LICENSE)
 
@@ -19,13 +19,13 @@ This package provides integration of [Dishka](http://github.com/reagento/dishka/
 Install using `pip`
 
 ```sh
-pip install dishka_rq
+pip install dishka-rq
 ```
 
 Or with `uv`
 
 ```sh
-uv add dishka_rq
+uv add dishka-rq
 ```
 
 ## Usage

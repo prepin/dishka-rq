@@ -1,6 +1,6 @@
 [project]
-name = "dishka_rq"
-version = "0.1.0"
+name = "dishka-rq"
+version = "0.1.1"
 description = "Dishka integration for RQ."
 readme = "README.md"
 authors = [
@@ -19,12 +19,12 @@ classifiers = [
   "License :: OSI Approved :: Apache Software License",
   "Operating System :: OS Independent",
 ]
-license = { text = "Apache-2.0" }
+license = {file = "LICENSE"}
 
 
 [build-system]
-requires = ["setuptools>=66.0"]
-build-backend = "setuptools.build_meta"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
 [project.urls]
 "Source" = "https://github.com/prepin/dishka-rq"
