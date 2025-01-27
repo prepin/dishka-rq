@@ -1,8 +1,8 @@
 # RQ integration for Dishka
 
-[![PyPI version](https://badge.fury.io/py/dishka_rq.svg)](https://pypi.python.org/pypi/dishka_rq)
-[![Supported versions](https://img.shields.io/pypi/pyversions/dishka_rq.svg)](https://pypi.python.org/pypi/dishka_rq)
-[![License](https://img.shields.io/github/license/prepin/dishka_rq)](https://github.com/prepin/dishka_rq/blob/master/LICENSE)
+[![PyPI version](https://badge.fury.io/py/dishka-rq.svg)](https://pypi.python.org/pypi/dishka-rq)
+[![Supported versions](https://img.shields.io/pypi/pyversions/dishka-rq.svg)](https://pypi.python.org/pypi/dishka-rq)
+[![License](https://img.shields.io/github/license/prepin/dishka-rq)](https://github.com/prepin/dishka_rq/blob/master/LICENSE)
 
 This package provides integration of [Dishka](http://github.com/reagento/dishka/) DI framework and [RQ](https://github.com/rq/rq) task queue manager.
 
