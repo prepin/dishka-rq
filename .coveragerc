@@ -1,0 +1,15 @@
+[run]
+parallel = True
+data_file = .coverage
+source = dishka_rq
+omit =
+    dishka_rq/tests/*
+
+[report]
+show_missing = True
+skip_covered = True
+exclude_lines =
+    pragma: no cover
+    pragma: no coverage
+    def __repr__
+    if __name__ == .__main__.:

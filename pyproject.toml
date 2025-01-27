@@ -1,0 +1,44 @@
+[project]
+name = "dishka-rq"
+version = "0.1.0"
+description = "Dishka integration for RQ."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["dishka>=1.4.2", "rq>=2.0.0"]
+classifiers = [
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Software Development :: Libraries",
+  "Typing :: Typed",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: Apache Software License",
+  "Operating System :: OS Independent",
+]
+
+[build-system]
+requires = ["setuptools>=66.0"]
+build-backend = "setuptools.build_meta"
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[dependency-groups]
+dev = [
+    "fakeredis>=2.26.2",
+    "nox>=2024.10.9",
+    "pytest>=8.3.4",
+    "pytest-cov>=6.0.0",
+]
+lint = [
+    "mypy>=1.14.1",
+    "ruff>=0.9.3",
+]
+
+[tool.uv]
+default-groups = ["dev", "lint"]
+
+[tool.ruff]
+line-length = 79
