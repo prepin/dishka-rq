@@ -17,7 +17,7 @@ from .tasks import app_job, just_a_task, non_injected_job, request_job
 pytestmark = pytest.mark.filterwarnings("ignore:CLIENT SETNAME")
 
 
-@pytest.fixture  # (scope="session")
+@pytest.fixture
 def redis():
     redis = FakeStrictRedis()
     yield redis

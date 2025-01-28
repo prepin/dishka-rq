@@ -109,9 +109,6 @@ def inject(func: Callable[P, T]) -> Callable[P, T]:
 def setup_dishka(worker: Worker, container: Container):
     worker_klass = worker.__class__
 
-    # if getattr(worker_klass, "_dishka_patched", False):
-    #     return
-
     old_perform_job = worker_klass.perform_job
     old_teardown = worker_klass.teardown
 
@@ -128,7 +125,5 @@ def setup_dishka(worker: Worker, container: Container):
         container.close()
         old_teardown(worker)
 
-    # worker_klass.perform_job = dishka_patched_perform_job
-    # worker_klass.teardown = dishka_patched_teardown
     worker.perform_job = dishka_patched_perform_job
     worker.teardown = dishka_patched_teardown

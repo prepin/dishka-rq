@@ -180,14 +180,3 @@ def test_perform_request_job(
 
     worker.teardown()
     app_provider.app_released.assert_called()
-
-
-# def test_dependency_missing(
-#     worker: DishkaWorker,
-#     fake_redis_conn: FakeStrictRedis,
-# ):
-#     """Should not add missing dependency to function."""
-#     queue = Queue(connection=fake_redis_conn)
-#     job = queue.enqueue(job_with_missing_dep)
-
-#     worker.perform_job(job, queue)

@@ -1,6 +1,6 @@
 [project]
 name = "dishka-rq"
-version = "0.1.1"
+version = "0.1.2"
 description = "Dishka integration for RQ."
 readme = "README.md"
 authors = [
