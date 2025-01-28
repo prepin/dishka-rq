@@ -1,6 +1,6 @@
 # RQ integration for Dishka
 
-[![PyPI version](https://badge.fury.io/py/dishka-rq.svg)](https://badge.fury.io/py/dishka-rq)
+[![PyPI version](https://badge.fury.io/py/dishka-rq.svg?rnd=194254a)](https://badge.fury.io/py/dishka-rq)
 [![Supported versions](https://img.shields.io/pypi/pyversions/dishka-rq.svg)](https://pypi.python.org/pypi/dishka-rq)
 [![License](https://img.shields.io/github/license/prepin/dishka-rq)](https://github.com/prepin/dishka_rq/blob/master/LICENSE)
 
