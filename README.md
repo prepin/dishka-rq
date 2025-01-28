@@ -8,7 +8,6 @@ This package provides integration of [Dishka](http://github.com/reagento/dishka/
 
 ## Features
 
-
 * **Automatic Scope Management**: Handles REQUEST and SESSION scopes per RQ job execution.
 * **Dependency Injection**: Injects dependencies into task handlers via:
   * Subclassed `DishkaWorker` for auto-injection.
